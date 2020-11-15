@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAttendeesList"
+        android:text="Set Up Your Profile"
+        android:padding="16dp"
+        android:layout_margin="10dp"
+        android:background="#F0F4C3"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:hint="Name"
+        android:padding="16dp"
+        android:layout_margin="20dp"
+        android:background="#FFEBEE"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmailAddress"
+        android:hint="Email Address"
+        android:padding="16dp"
+        android:layout_margin="20dp"
+        android:background="#FFEBEE"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRole"
+        android:hint="Your Role"
+        android:padding="16dp"
+        android:layout_margin="20dp"
+        android:background="#FFEBEE"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSave"
+        android:text="Save"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+</LinearLayout>

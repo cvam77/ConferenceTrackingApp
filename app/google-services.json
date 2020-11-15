@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "453326132424",
+    "firebase_url": "https://conference-44539.firebaseio.com",
+    "project_id": "conference-44539",
+    "storage_bucket": "conference-44539.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453326132424:android:2f30bedcf7cf08969541fd",
+        "android_client_info": {
+          "package_name": "com.example.conferencetrackingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453326132424-qtsqdmlamj88kv4d5j4ldtogt1oiiuj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMAXhXRwR5udY4fk9VqFnQRWzh2om6mv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453326132424-qtsqdmlamj88kv4d5j4ldtogt1oiiuj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
